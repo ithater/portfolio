@@ -9,7 +9,7 @@ function useDB() {
 			try	{
 				const request = await fetch('./docs/db.json');
 				const response = await request.json();
-				// await new Promise(res => setTimeout(res, 1000));
+				await new Promise(res => setTimeout(res, 1000));
 				setResponse(response);
 			} catch(error) {
 				setError(error);
