@@ -1,0 +1,170 @@
+@import 'mixins.sass'
+
+*
+	box-sizing: border-box
+body
+	font-family: 'Roboto', sans-serif
+	background: rgba(255, 255, 255, 0.95)
+.container
+	margin: auto
+	max-width: 1056px
+
+h1,
+h2,
+h3
+	margin: 0
+p
+	margin: 0
+
+img
+	width: 100%
+button
+	cursor: pointer
+
+.spiner-loader
+	@include absolute-full
+		display: flex
+		justify-content: center
+		align-items: center
+		background-color: #38383f
+
+.lds-hourglass
+	display: inline-block
+	position: relative
+	width: 80px * 2
+	height: 80px * 2
+	&:after
+		content: " "
+		display: block
+		border-radius: 50%
+		width: 0
+		height: 0
+		margin: 8px * 2
+		box-sizing: border-box
+		border: 32px * 2 solid #fff
+		border-color: #fff transparent #fff transparent
+		animation: lds-hourglass 1.2s infinite
+
+@keyframes lds-hourglass
+	0%
+		transform: rotate(0)
+		animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19)
+
+	50%
+		transform: rotate(900deg)
+		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+
+	100%
+		transform: rotate(1800deg)
+
+.link
+	font-size: 22px
+	text-transform: uppercase
+	text-decoration: none
+	color: #21212f
+	@include smart-hover
+		transition: .1s
+		&:hover
+			color: crimson
+
+.header
+	padding: 40px 0 20px
+	&__container
+		display: flex
+		justify-content: center
+
+.projects
+	padding: 20px 0 40px
+	&-project
+		display: flex
+		padding-top: 20px
+		padding-bottom: 20px
+		border-top: 2px solid #555553
+		&__images
+			flex-basis: 480px
+			height: 390px
+			overflow: hidden
+			flex-shrink: 0
+			flex-grow: 0
+		&__image
+			width: 480px
+			height: 390px
+			object-fit: contain
+		&__info
+			padding-top: 40px
+			padding-left: 20px
+			flex-grow: 1
+		&__holder
+			display: flex
+			align-items: center
+			justify-content: space-between
+			margin-bottom: 25px
+		&__title
+			font-size: 36px
+			font-weight: 700
+			letter-spacing: 2px
+		&-links
+			position: relative
+			margin: 0
+			padding: 0
+			border-right: 1px solid #232323
+			list-style: none
+			&__button
+				font-size: 20px
+				text-transform: uppercase
+				padding: 10px
+				outline: none
+				border: none
+				background: transparent
+			&__link
+				font-size: 18px
+			&__wrapper
+				position: absolute
+				right: -2px
+				top: 100%
+				display: flex
+				flex-direction: column
+				align-items: flex-end
+				padding: 0 10px
+				background-color: #fff
+				border: 1px solid #232323
+				list-style: none
+				box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.5)
+
+				transform-origin: top
+				transform: scaleY(0)
+				transition: .5s
+				will-change: transform
+				opacity: 0
+
+				overflow: hidden
+				&--active
+					opacity: 1
+					transform: scaleY(1)
+
+			&__item
+				padding: 5px 0
+
+		&__about
+			margin-bottom: 20px
+			font-size: 27px
+			letter-spacing: 1px
+
+		&-technologies
+			&__title
+				font-size: 18px
+			&__list
+				display: flex
+				flex-wrap: wrap
+				margin: 0
+				padding: 0
+				list-style: none
+			&__technology
+				margin: 4px
+				padding: 4px
+				font-size: 16px
+				font-weight: 500
+				text-transform: uppercase
+				border-radius: 4px
+				border: 1px solid #555555
+				

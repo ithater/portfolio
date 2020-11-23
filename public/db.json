@@ -1,0 +1,61 @@
+[
+	{
+		"id": 0,
+		"title": "Universal",
+		"about": "Universal — это онлайн издание, в котором мы публикуем полезные материалы о веб разработке: статьи, новости, видеоуроки, подборки, ссылки и курсы",
+		"links": [
+			{ "name": "GitHub", "link": "https://github.com/ithater/universal" },
+			{ "name": "Главная", "link": "https://ithater.github.io/universal/" },
+			{ "name": "Статья", "link": "https://ithater.github.io/universal/article.html?" }
+		],
+		"previewPhotos" : [
+			"https://i.imgur.com/XErPdWF.png",
+			"https://i.imgur.com/LgdxOy2.png"
+		],
+		"technologies": [
+			"html",
+			"sass",
+			"javascript",
+			"phpmailer",
+			"webpack"
+		]
+	},
+	{
+		"id": 1,
+		"title": "Ehya Clothing Store",
+		"about": "Интернет-магазин брендовой одежды с оплатой онлайн",
+		"links": [
+			{ "name": "GitHub", "link": "https://github.com/ithater/ehya-clothing-store" },
+			{ "name": "Главная", "link": "https://ithater.github.io/ehya-clothing-store/" }
+			
+		],
+		"previewPhotos" : [
+			"https://i.imgur.com/PCP5PeT.png"
+		],
+		"technologies": [
+			"html",
+			"sass",
+			"javascript",
+			"phpmailer",
+			"webpack"
+		]
+	},
+	{
+		"id": 2,
+		"title": "Строй Конртроль",
+		"about": "Умная доставка материалов для сложных строительных площадок",
+		"links": [
+			{ "name": "GitHub", "link": "https://github.com/ithater/build-control" },
+			{ "name": "Главная", "link": "https://ithater.github.io/build-control/" }
+		],
+		"previewPhotos" : [
+			"https://i.imgur.com/VOXqrnL.png"
+		],
+		"technologies": [
+			"html",
+			"sass",
+			"javascript",
+			"webpack"
+		]
+	}
+]
