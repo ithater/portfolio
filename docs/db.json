@@ -5,8 +5,8 @@
 		"about": "Universal — это онлайн издание, в котором мы публикуем полезные материалы о веб разработке: статьи, новости, видеоуроки, подборки, ссылки и курсы",
 		"links": [
 			{ "name": "GitHub", "link": "https://github.com/ithater/universal" },
-			{ "name": "Главная", "link": "https://ithater.github.io/universal/" },
-			{ "name": "Статья", "link": "https://ithater.github.io/universal/article.html?" }
+			{ "name": "Главная", "link": "https://ithater.ru/universal/" },
+			{ "name": "Статья", "link": "https://ithater.ru/universal/article.html?" }
 		],
 		"previewPhotos" : [
 			"https://i.imgur.com/XErPdWF.png",
@@ -26,7 +26,7 @@
 		"about": "Интернет-магазин брендовой одежды с оплатой онлайн",
 		"links": [
 			{ "name": "GitHub", "link": "https://github.com/ithater/ehya-clothing-store" },
-			{ "name": "Главная", "link": "https://ithater.github.io/ehya-clothing-store/" }
+			{ "name": "Главная", "link": "https://ithater.ru/ehya-clothing-store/" }
 			
 		],
 		"previewPhotos" : [
