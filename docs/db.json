@@ -17,7 +17,8 @@
 			"sass",
 			"javascript",
 			"phpmailer",
-			"webpack"
+			"webpack",
+			"bem"
 		]
 	},
 	{
@@ -37,7 +38,8 @@
 			"sass",
 			"javascript",
 			"phpmailer",
-			"webpack"
+			"webpack",
+			"bem"
 		]
 	},
 	{
@@ -55,7 +57,8 @@
 			"html",
 			"sass",
 			"javascript",
-			"webpack"
+			"webpack",
+			"bem"
 		]
 	}
 ]
